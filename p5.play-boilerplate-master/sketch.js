@@ -5,7 +5,7 @@ var wall, thickness;
 function setup() {
   createCanvas(1600,400);
   speed=random(223,321)
-  weight-random(30,52)
+  weight=random(30,52)
   thickness=random(22,83)
 
   bullet = createSprite(50, 200, 65, 25);
